@@ -109,8 +109,8 @@ body{background:var(--white);color:var(--ink);font-family:var(--fb);font-size:17
 .hero-photo{position:absolute;inset:0;overflow:hidden;z-index:0}
 .hero-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 27%;transform:scale(1.1);transform-origin:15% 80%;z-index:0}
 .hero-tint{position:absolute;inset:0;z-index:5;background:
-  linear-gradient(180deg,rgba(4,12,24,.08) 0%,rgba(4,12,24,.25) 100%),
-  linear-gradient(100deg,rgba(7,26,48,.92) 0%,rgba(7,26,48,.78) 40%,rgba(7,26,48,.4) 56%,rgba(7,26,48,.1) 70%,rgba(7,26,48,.03) 100%);
+  linear-gradient(180deg,rgba(4,12,24,.06) 0%,rgba(4,12,24,.16) 100%),
+  linear-gradient(100deg,rgba(7,26,48,.9) 0%,rgba(7,26,48,.7) 35%,rgba(7,26,48,.26) 50%,rgba(7,26,48,.05) 62%,rgba(7,26,48,0) 100%);
 }
 .hero-wrap{position:relative;z-index:1;max-width:none;margin:0;padding-left:140px;padding-right:40px}
 .hero-inner{max-width:700px}
