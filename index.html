@@ -17,7 +17,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css">
-<link rel="stylesheet" href="./styles.css?v=21">
+<link rel="stylesheet" href="./styles.css?v=48">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -52,7 +52,7 @@
   <a href="#faq">FAQs</a>
   <a href="#contacto">Contacto</a>
   <a href="#redes">Redes</a>
-  <a href="https://wa.me/5493513223743?text=Hola%2C%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener" class="btn btn-outline">Escribime</a>
+  <a href="https://wa.me/5493513223743?text=Hola%2C%20quiero%20agendar%20una%20consulta." target="_blank" rel="noopener" class="btn btn-outline">Agendar</a>
 </nav>
 
 <header id="header">
@@ -69,22 +69,25 @@
       <a href="#redes">Redes</a>
     </nav>
     <div class="hd-cta">
-      <a href="https://wa.me/5493513223743?text=Hola%2C%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener" class="btn btn-outline">Escribime</a>
+      <a href="https://wa.me/5493513223743?text=Hola%2C%20quiero%20agendar%20una%20consulta." target="_blank" rel="noopener" class="btn btn-outline">Agendar</a>
     </div>
   </div>
 </header>
 
 <!-- HERO -->
 <section id="hero">
-  <div class="hero-bg" aria-hidden="true">
-    <img src="https://images.pexels.com/photos/8730987/pexels-photo-8730987.jpeg?auto=compress&cs=tinysrgb&w=1920" alt="" loading="eager">
-    <div class="tint"></div>
+  <div class="hero-photo" aria-hidden="true">
+    <picture>
+      <source media="(max-width:768px)" srcset="https://images.pexels.com/photos/8730987/pexels-photo-8730987.jpeg?auto=compress&cs=tinysrgb&w=1920">
+      <img src="./marcelo-2.png" alt="" loading="eager">
+    </picture>
+    <div class="hero-tint"></div>
   </div>
   <div class="wrap hero-wrap">
     <div class="hero-inner reveal">
       <span class="eyebrow">Derecho de Familia y Sucesiones</span>
       <h1 class="hero-title">Veinte años acompañando los momentos&nbsp;más difíciles de tu&nbsp;familia.</h1>
-      <p class="hero-sub">Divorcios, sucesiones y todo lo patrimonial que viene con ellos, resuelto con cercanía y sin vueltas — y con la posibilidad de pagar en cuotas.</p>
+      <p class="hero-sub">Protegemos tu futuro y tu patrimonio en los momentos de cambio. Asesoramiento legal y humano para resolver tu divorcio o sucesión con total cercanía y claridad.</p>
       <div class="hero-stats">
         <div class="hero-stat"><i class="ti ti-clock-hour-4"></i><span>20 años de trayectoria</span></div>
         <div class="hero-stat"><i class="ti ti-lock"></i><span>Confidencialidad total</span></div>
@@ -92,11 +95,16 @@
         <div class="hero-stat"><i class="ti ti-credit-card"></i><span>Honorarios en cuotas</span></div>
       </div>
       <div class="hero-ctas">
-        <a href="https://wa.me/5493513223743?text=Hola%2C%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener" class="btn btn-primary">Escribime por WhatsApp</a>
+        <a href="https://wa.me/5493513223743?text=Hola%2C%20quiero%20agendar%20una%20consulta." target="_blank" rel="noopener" class="btn btn-primary">Agendar consulta</a>
         <a href="#areas" class="btn btn-outline">Ver áreas de práctica</a>
       </div>
     </div>
   </div>
+</section>
+
+<!-- FOTO ABOGADO — solo mobile, full bleed debajo del hero -->
+<section class="hero-mobile-photo" aria-hidden="true">
+  <img src="./marcelo.png" alt="" loading="lazy">
 </section>
 
 <!-- EL ESTUDIO -->
@@ -114,9 +122,11 @@
       </ul>
     </div>
     <div class="estudio-profile reveal">
-      <div class="profile-avatar"><img src="./logo.png" alt=""></div>
-      <h3 class="profile-name">Dr. Marcelo Ballestero</h3>
-      <p class="profile-desc">Muy respetuoso y comprometido con su trabajo. Empático y cercano al cliente. Con experiencia.</p>
+      <div class="profile-photo"><img src="./marcelo-4.png" alt="Dr. Marcelo Ballestero"></div>
+      <div class="profile-info">
+        <h3 class="profile-name">Dr. Marcelo Ballestero</h3>
+        <p class="profile-desc">Muy respetuoso y comprometido con su trabajo. Empático y cercano al cliente. Gran experiencia y trayectoria.</p>
+      </div>
     </div>
   </div>
 </section>
@@ -129,10 +139,10 @@
       <h2 class="h2">En qué te puedo ayudar.</h2>
     </div>
     <div class="areas-grid reveal">
-      <a href="https://wa.me/5493513223743?text=Hola%2C%20quiero%20consultar%20sobre%20un%20divorcio." target="_blank" rel="noopener" class="area-card">
+      <a href="https://wa.me/5493513223743?text=Hola%2C%20quiero%20consultar%20sobre%20un%20divorcio%20y%20bienes%20gananciales." target="_blank" rel="noopener" class="area-card">
         <div class="area-icon"><i class="ti ti-heart-broken"></i></div>
-        <h3 class="area-title">Divorcios</h3>
-        <p class="area-text">Conflictivos o de mutuo acuerdo, con la estrategia que tu situación necesita.</p>
+        <h3 class="area-title">Divorcios y bienes gananciales</h3>
+        <p class="area-text">Conflictivos o de mutuo acuerdo, incluyendo la división de bienes gananciales, con la estrategia que tu situación necesita.</p>
         <span class="area-link">Consultar <i class="ti ti-arrow-right"></i></span>
       </a>
       <a href="https://wa.me/5493513223743?text=Hola%2C%20quiero%20consultar%20sobre%20una%20sucesi%C3%B3n." target="_blank" rel="noopener" class="area-card">
@@ -141,19 +151,19 @@
         <p class="area-text">Gestión completa del proceso sucesorio, de principio a fin.</p>
         <span class="area-link">Consultar <i class="ti ti-arrow-right"></i></span>
       </a>
-      <a href="https://wa.me/5493513223743?text=Hola%2C%20quiero%20consultar%20sobre%20cuota%20alimentaria%20y%20bienes%20gananciales." target="_blank" rel="noopener" class="area-card">
+      <a href="https://wa.me/5493513223743?text=Hola%2C%20quiero%20consultar%20sobre%20cuota%20alimentaria%20y%20r%C3%A9gimen%20comunicacional." target="_blank" rel="noopener" class="area-card">
         <div class="area-icon"><i class="ti ti-coin"></i></div>
-        <h3 class="area-title">Cuota alimentaria y bienes gananciales</h3>
-        <p class="area-text">Fijación, aumento o incumplimiento de cuota, y división patrimonial.</p>
+        <h3 class="area-title">Cuota alimentaria y régimen comunicacional</h3>
+        <p class="area-text">Fijación, aumento o incumplimiento de cuota alimentaria, y acuerdos de régimen comunicacional entre las partes.</p>
         <span class="area-link">Consultar <i class="ti ti-arrow-right"></i></span>
       </a>
       <a href="https://wa.me/5493513223743?text=Hola%2C%20quiero%20consultar%20sobre%20violencia%20econ%C3%B3mica." target="_blank" rel="noopener" class="area-card">
         <div class="area-icon"><i class="ti ti-shield-check"></i></div>
         <h3 class="area-title">Violencia económica</h3>
-        <p class="area-text">Incluye régimen comunicacional y autorización para viajar con menores.</p>
+        <p class="area-text">Asesoramiento ante situaciones de violencia económica en la pareja, incluyendo autorización para viajar con menores.</p>
         <span class="area-link">Consultar <i class="ti ti-arrow-right"></i></span>
       </a>
-      <a href="https://wa.me/5493513223743?text=Hola%2C%20quiero%20hacer%20una%20consulta%20de%20Derecho%20Civil%20o%20Laboral." target="_blank" rel="noopener" class="area-card">
+      <a href="https://wa.me/5493513223743?text=Hola%2C%20quiero%20agendar%20una%20consulta%20de%20Derecho%20Civil%20o%20Laboral." target="_blank" rel="noopener" class="area-card">
         <div class="area-icon"><i class="ti ti-briefcase"></i></div>
         <h3 class="area-title">Derecho Civil y Laboral</h3>
         <p class="area-text">Consultas generales, atendidas con el mismo trato personal.</p>
@@ -162,8 +172,8 @@
       <div class="area-card area-cta">
         <span class="eyebrow">Contame tu caso</span>
         <h3 class="area-title">¿Tu situación no está acá?</h3>
-        <p class="area-text">Escribime y te respondo a la brevedad.</p>
-        <a href="https://wa.me/5493513223743?text=Hola%2C%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener" class="btn btn-primary btn-wide">Consultar por WhatsApp</a>
+        <p class="area-text">Escribime y coordinamos tu consulta inicial.</p>
+        <a href="https://wa.me/5493513223743?text=Hola%2C%20quiero%20agendar%20una%20consulta." target="_blank" rel="noopener" class="btn btn-primary btn-wide">Agendar consulta</a>
       </div>
     </div>
   </div>
@@ -187,11 +197,11 @@
       </div>
       <div class="faq-item">
         <button class="faq-q" aria-expanded="false"><span>¿Cómo funciona el pago en cuotas?</span><i class="ti ti-chevron-down"></i></button>
-        <div class="faq-a"><div class="faq-a-inner"><p>Los honorarios se pueden abonar en cuotas, adaptadas a cada caso — lo conversamos directamente por WhatsApp según tu situación.</p></div></div>
+        <div class="faq-a"><div class="faq-a-inner"><p>Sí, los honorarios se pueden abonar en cuotas. La cantidad y las condiciones se definen en la consulta inicial (presencial o virtual), donde se analiza tu caso en detalle — ese tipo de definiciones no se resuelven por WhatsApp.</p></div></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" aria-expanded="false"><span>¿Tengo que ir presencialmente al estudio?</span><i class="ti ti-chevron-down"></i></button>
-        <div class="faq-a"><div class="faq-a-inner"><p>La primera consulta se puede hacer por WhatsApp, texto o audio, para empezar a ver tu caso sin que tengas que trasladarte.</p></div></div>
+        <div class="faq-a"><div class="faq-a-inner"><p>No es obligatorio: la consulta inicial puede ser presencial o virtual, según lo que te resulte más cómodo. WhatsApp se usa únicamente para coordinar el turno — la consulta en sí no se resuelve por ese medio.</p></div></div>
       </div>
       <div class="faq-item">
         <button class="faq-q" aria-expanded="false"><span>¿Es confidencial lo que cuento?</span><i class="ti ti-chevron-down"></i></button>
@@ -211,7 +221,7 @@
     <div class="contacto-col reveal">
       <span class="eyebrow">Contacto</span>
       <h2 class="h2">Contame qué<em> está pasando</em>.</h2>
-      <p class="p-lead-dark">Cada caso es único. Escribime y te doy una primera orientación clara sobre tu situación.</p>
+      <p class="p-lead-dark">Cada caso es único. Escribime y coordinamos tu consulta inicial, presencial o virtual.</p>
       <ul class="check-list check-list-dark">
         <li><i class="ti ti-lock"></i><span><strong>Confidencialidad absoluta.</strong> Tu información está 100% protegida.</span></li>
         <li><i class="ti ti-bolt"></i><span><strong>Respuesta directa.</strong> Te respondo personalmente a la brevedad.</span></li>
@@ -226,8 +236,8 @@
     </div>
     <div class="contacto-card reveal">
       <h3>Tu consulta</h3>
-      <p>Escribime directo y te respondo a la brevedad.</p>
-      <a href="https://wa.me/5493513223743?text=Hola%2C%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener" class="btn btn-primary btn-wide">Escribime por WhatsApp</a>
+      <p>Escribime y coordinamos tu consulta inicial, presencial o virtual.</p>
+      <a href="https://wa.me/5493513223743?text=Hola%2C%20quiero%20agendar%20una%20consulta." target="_blank" rel="noopener" class="btn btn-primary btn-wide">Agendar consulta</a>
       <p class="contacto-note"><i class="ti ti-lock"></i> Tu consulta será tratada con absoluta confidencialidad</p>
       <div class="contacto-map">
         <iframe src="https://www.google.com/maps?q=Alto+Alberdi,+Cordoba,+Argentina&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Zona de atención: Alto Alberdi, Córdoba"></iframe>
@@ -300,7 +310,7 @@
   <button type="button" class="fab-top" id="fabTop" aria-label="Volver arriba" onclick="window.scrollTo({top:0,behavior:'smooth'})">
     <i class="ti ti-chevron-up"></i>
   </button>
-  <a href="https://wa.me/5493513223743?text=Hola%2C%20quiero%20hacer%20una%20consulta." target="_blank" rel="noopener" class="fab-wa" aria-label="WhatsApp">
+  <a href="https://wa.me/5493513223743?text=Hola%2C%20quiero%20agendar%20una%20consulta." target="_blank" rel="noopener" class="fab-wa" aria-label="WhatsApp">
     <i class="fa-brands fa-whatsapp"></i>
   </a>
 </div>
