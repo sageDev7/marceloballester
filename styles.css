@@ -246,14 +246,19 @@ footer{background:var(--blue-night);color:rgba(255,255,255,.65);padding:70px 0 0
   .wrap{padding:0 24px}
   #estudio,#areas,#faq,#contacto,#redes{padding:72px 0}
   .sec-head{text-align:center}
+  #hero{padding:80px 0 24px}
   .hero-photo{position:absolute;inset:0;width:auto}
-  .hero-photo img{object-position:50% 50%;transform:scale(1.45);transform-origin:72% 90%}
+  .hero-photo img{object-position:50% 50%;transform:scale(1.6);transform-origin:58% 93%}
   .hero-tint{background:linear-gradient(180deg,rgba(7,26,48,.5) 0%,rgba(7,26,48,.72) 100%)}
   .hero-wrap{width:100%;display:block;padding:0 24px}
   .hero-inner{position:relative;z-index:1;text-align:center;margin:0 auto;max-width:520px}
-  .hero-stats{grid-template-columns:1fr;justify-items:center}
-  .hero-ctas{justify-content:center}
-  .hero-ctas .btn{width:100%;max-width:300px;justify-content:center}
+  .hero-inner .eyebrow{font-size:.66rem;margin-bottom:10px}
+  .hero-title{font-size:clamp(1.45rem,6.5vw,1.9rem);margin-bottom:12px;line-height:1.18}
+  .hero-sub{font-size:.88rem;line-height:1.45;margin-bottom:14px}
+  .hero-stats{grid-template-columns:1fr;justify-items:center;gap:6px;margin-bottom:14px}
+  .hero-stat{font-size:.82rem}
+  .hero-ctas{justify-content:center;gap:8px}
+  .hero-ctas .btn{width:100%;max-width:300px;justify-content:center;padding:9px 18px;font-size:.76rem}
   .estudio-text{text-align:center}
   .profile-photo img{object-position:center 90%;transform:scale(1.18);transform-origin:center 106%}
   .check-list li{max-width:270px;margin:0 auto;flex-direction:column;align-items:center;text-align:center;gap:6px}
@@ -271,19 +276,6 @@ footer{background:var(--blue-night);color:rgba(255,255,255,.65);padding:70px 0 0
   .legal ul{display:inline-block;text-align:left;margin:.5rem auto}
   .err-ctas{flex-direction:column;align-items:center}
   .err-ctas .btn{width:100%;max-width:300px;justify-content:center}
-}
-
-/* Mobiles de poca altura (iPhone SE, Galaxy S8+, etc.) — achicar SOLO acá, nunca por ancho solo */
-@media(max-width:768px) and (max-height:760px){
-  #hero{padding:90px 0 30px}
-  .hero-photo img{transform:scale(1.6);transform-origin:72% 93%}
-  .hero-inner .eyebrow{font-size:.68rem;margin-bottom:12px}
-  .hero-title{font-size:clamp(1.6rem,7vw,2rem);margin-bottom:14px}
-  .hero-sub{font-size:.92rem;line-height:1.5;margin-bottom:18px}
-  .hero-stats{gap:8px;margin-bottom:18px}
-  .hero-stat{font-size:.85rem}
-  .hero-ctas{gap:10px}
-  .hero-ctas .btn{padding:10px 20px;font-size:.78rem}
 }
 
 @media(max-width:480px){
